@@ -1,0 +1,17 @@
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px; /* Adjust the size as needed */
+    height: 42px; /* Adjust the size as needed */
+    background-color: #F7F7F9; /* Adjust the background color as needed */
+    color: #000; /* Adjust the text/icon color as needed */
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.leftArrow{
+    font-size: 24px;
+    font-weight:bold;
+}

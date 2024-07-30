@@ -1,0 +1,86 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 389px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .banner::before {
+    content: "";
+    background-image: url('../../public/images/registerBanner00.png'); /* Path to your image */
+    background-size:cover;
+    background-position: center;
+    opacity: 1; /* Adjust opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it is behind the content */
+    overflow: hidden;
+}
+
+.bannerContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  height: 222px;
+}
+
+.mainTitle{
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; /* 93.333% */
+    align-self: center;
+    margin-bottom: 12px;
+    /* width: 198px; */
+}
+
+.h2{
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  align-self: center;
+  margin-bottom: 4px;
+}
+
+.h3{
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 200;
+  align-self: center;
+  margin-bottom: 12px;
+}
+
+.backButton{
+  margin-left: 33px;
+  padding-top: 33px;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > * {
+  margin-top: 19px;
+  align-self: center;
+}
+
+.loginForm > p {
+  margin-top: 13px !important;
+  align-self: center;
+}
+
+.loginForm:first-child{
+  margin-top: 2vh !important;
+}
+
+.smallText{
+  font-size: 14px;
+}

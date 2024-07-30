@@ -1,0 +1,38 @@
+.bg{
+  background-image: url('../public/images/entryBg02.png');
+  background-size: cover; 
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 66%;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: center;
+}
+
+.mainTitle{
+  margin-left: 20%;
+  padding-top: 33%;
+  color: #FFF;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 42px; /* 93.333% */
+  width: 198px;
+  /* margin-bottom: 55px; */
+}
+
+.link{
+  margin-top: 22px;
+  align-self: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
